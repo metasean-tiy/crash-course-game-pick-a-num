@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500);
+
+@-ms-viewport{
+  width: device-width;
+}
+
+body, body * {
+  font-family: Ubuntu, sans-serif;
+  font-size: 5vw;
+}
+
+.response {
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+  color: #FFABAB;
+}
+
+h3 {
+  text-align: center;
+  margin: 0 0 20px;
+  color: #4C4945;
+}
+
+form {
+  background: #FFF2E6;
+  margin: auto;
+  padding: 5vw;
+  border-radius: 10px;
+  width: 75vw;
+  text-align: center;
+}
+
+input {
+  border: 1px solid #ddd0d2;
+  background: #FFFCFA;
+  padding: 1.2vw;
+  width: 8vw;
+  text-align: center;
+}
+
+button {
+  background: #FFABAB;
+  border: 1px solid #FF9C9C;
+  padding: 1.2vw;
+  color: #FFFCFA;
+  width: 60vw;
+  cursor: pointer;
+}
